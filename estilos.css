@@ -1,0 +1,87 @@
+footer{
+    background-color: rgb(231, 192, 86);
+    color: black;
+    height: 100px;
+    width: 100%;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    align-self: flex-end;
+    font-size: 1em;
+}
+
+main{
+    display: flex;flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 1em;
+}
+
+.caja1{
+    grid-row: 1;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    font-size: 1em;
+}
+
+.section-inicio{
+    background-color: #F3F3F3;
+    height: 520px;
+    width: 800px;
+    margin: 35px 0px;
+    border-radius: 20px;
+    padding: 40px 80px;
+    font-size: 1em;
+}
+
+nav{
+    background-color: rgb(76, 216, 123);
+    display: flex;
+    justify-content: center;
+    border-block-end: solid; 
+    font-size: 1em;
+}
+
+.boton{
+    background-color: rgba(167, 182, 189, 0.795);
+    border: 2px solid black;
+    margin: 11px;
+    padding: 10px 0px;
+    width: auto;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-inline: 100 px;
+    font-family: Georgia, serif;
+    border:solid 3px black;
+    font-size: 1em;
+}
+@media (max-widght:600px){
+    body{
+        background-color: black;
+    }
+    }
+    @media (min-widght:600px){
+        body{
+            background-color: black;
+        }
+        }
+
+
+body{
+   margin: 0px;
+   padding: 0px;
+    display: block;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    font-size: 1em;
+}
+
